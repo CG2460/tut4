@@ -11,8 +11,8 @@ public class TestCalc
 {
     @Test
     void add() {
-        int a = 13;
-        int b = 23;
+        int a = 24;
+        int b = 12;
         assertEquals(36, Calc.add(a,b));
     }
 
