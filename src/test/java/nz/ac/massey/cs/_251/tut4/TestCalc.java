@@ -16,5 +16,12 @@ public class TestCalc
         assertEquals(36, Calc.add(a,b));
     }
 
+    @Test
+    void subtract() {
+        int a = 24;
+        int b = 12;
+        assertEquals(12,Calc.subtract(a,b));
+    }
+
 
 }
